@@ -15,6 +15,6 @@ function updateStateValue(){
 
 const useState = ["Moringa", updateStateValue]
 
-const [value, setValue] = useState
+const [, setValue] = useState
 
 console.log(setValue())

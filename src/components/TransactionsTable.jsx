@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import TransactionRow from "./TransactionRow";
 
 export default function TransactionsTable({transactions, setTransactions}) {
@@ -16,6 +16,7 @@ export default function TransactionsTable({transactions, setTransactions}) {
       <thead>
         <tr>
           <th>Transaction ID</th>
+          <th>#</th>
           <th>Type</th>
           <th>Amount</th>
           <th>Action</th>
